@@ -93,6 +93,6 @@ app.post("/download", async (req, res) => {
 });
 
 // Start locally
-app.listen(3000, () => console.log("✅ Backend running on http://localhost:3000"));
+//app.listen(3000, () => console.log("✅ Backend running on http://localhost:3000"));
 
 export default app; // Required for Vercel
